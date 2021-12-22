@@ -23,7 +23,7 @@ def author_name(name):
     else:
         last_name = name_list[-1]
     
-    name_list.pop()  # remove last name 1
+    name_list.pop()  # remove last name #1
     
     return last_name.upper() + (', ' if len(name_list) else '') + ' '.join(name_list)
 ```
