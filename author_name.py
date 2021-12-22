@@ -5,13 +5,13 @@
 
 def author_name(name):
 
-    EXCEPTIONS = ('filho', 'filha', 'neto', 'neta', 'sobrinho', 'sobrinha', 'junior')
-    LOWER_CASE = ("da", "de", "do", "das", "dos")
+    _EXCEPTIONS = ('filho', 'filha', 'neto', 'neta', 'sobrinho', 'sobrinha', 'junior')
+    _LOWERCASE = ("da", "de", "do", "das", "dos")
 
     # list comprehension    
-    name_list = [ x.lower() if x.lower() in LOWER_CASE else x.capitalize() for x in name.split() ]
+    name_list = [ x.lower() if x.lower() in _LOWERCASE else x.capitalize() for x in name.split() ]
 
-    if len(name_list) > 2 and name_list[-1].lower() in EXCEPTIONS:
+    if len(name_list) > 2 and name_list[-1].lower() in _EXCEPTIONS:
         last_name = name_list[-2] + ' ' + name_list[-1]
         name_list.pop()  # Remove last name #2
     else:
