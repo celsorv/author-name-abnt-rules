@@ -30,6 +30,8 @@ def author_name(name):
 
 
 <blockquote>
-Euzebio sAntos Lima Filho      --->> LIMA FILHO, Euzebio Santos
-Gerivaldo Antonio do Alabama   --->> ALABAMA, Gerivaldo Antonio do
+<br>
+    Euzebio sAntos Lima Filho      --->> LIMA FILHO, Euzebio Santos<br>
+    Gerivaldo Antonio do Alabama   --->> ALABAMA, Gerivaldo Antonio do
+<br>
 </blockquote>
