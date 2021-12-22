@@ -13,11 +13,11 @@ def author_name(name):
 
     if len(name_list) > 2 and name_list[-1].lower() in EXCEPTIONS:
         last_name = name_list[-2] + ' ' + name_list[-1]
-        name_list.pop()
+        name_list.pop()  # Remove last name #2
     else:
         last_name = name_list[-1]
     
-    name_list.pop()
+    name_list.pop()  # Remove last name #1
     
     return last_name.upper() + (', ' if len(name_list) else '') + ' '.join(name_list)
 
