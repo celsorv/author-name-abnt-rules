@@ -27,3 +27,9 @@ def author_name(name):
     
     return last_name.upper() + (', ' if len(name_list) else '') + ' '.join(name_list)
 ```
+
+
+<blockquote>
+Euzebio sAntos Lima Filho      --->> LIMA FILHO, Euzebio Santos
+Gerivaldo Antonio do Alabama   --->> ALABAMA, Gerivaldo Antonio do
+</blockquote>
