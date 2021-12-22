@@ -29,6 +29,7 @@ def author_name(name):
 ```
 
 
+### Example outputs:
 ```
 
     Euzebio Santos Lima Filho      # LIMA FILHO, Euzebio Santos
